@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<title>Prarthona Paul</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="PrarthonaPaulStyleSheet.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<html lang="en">
+<head>
+    <link href="PrarthonaPaulStyleSheet.css" rel="stylesheet" />
+    <script>
+        openResume = function () {
+            window.open('https://tinyurl.com/PrarthonaPaulResume', "_blank");
+        }
+        openGitHub = function () {
+            window.open('https://github.com/PrarthonaPaul', "_blank");
+        }
+    </script>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <nav>
+        <!-- Avatar image in top left corner -->
+        <ul class="mainMenu w3-hide-small">
+            <li>
+                <a href="#">
+                    <i class="fa fa-home w3-xlarge"> HOME</i>
+                </a>
+            </li>
+            <li>
+                <a href="#Experience">
+                    <i class="fa fa-user w3-xlarge"> EXPERIENCE</i>
+                </a>
+            </li>
+            <li>
+                <a href="#Softwares">
+                    <i class="fa fa-desktop w3-xlarge"> SOFTWARES</i>
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-paper-plane w3-xlarge"> PROJECTS</i>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-envelope w3-xlarge"> CONTACT</i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Navbar on small screens (Hidden on medium and large screens)-->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25%">HOME</a>
+            <a href="#Experience" class="w3-bar-item w3-button" style="width:25% ">EXPERIENCES</a>
+            <a href="#Softwares" class="w3-bar-item w3-button" style="width:25% ">SOFTWARES</a>
+            <a href="#projects" class="w3-bar-item w3-button" style="width:25% ">PROJECTS</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center Container home" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">Hi, I'm</span> Prarthona Paul</h1>
+            <table class="introTable">
+                <tr class="w3-hide-large" style="width: 100%">
+                    <!--<Only shown in small and medium screens. Picture placed below bio.>-->
+                    <td class="bio">
+                        <div class="w3-content w3-justify w3-padding-16" id="description">
+                            <h3 style="font-family: serif;">
+                                I am a <span style="color: #ADD8E6;">computer engineering </span>student at the <span style="color: #3169f1; "> University of Toronto</span>.
+                                I am passionate about programming and software development. I am currently
+                                searching for coop and internship opportunities summer 2022.
+                            </h3>
+                            <br>
+                            <div class="resumeBtn">
+                                <button class="w3-button button1" type="button" onclick="openResume()"> View My Resume</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="w3-hide-large " style="width: 100%">
+                    <td class="profilepic" style="width: 100%;" loading="lazy">
+                        <img src="Pictures/pfp.png" alt="Prarthona Paul" width="600">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bio">
+                        <!--Only shows on large screens. Bio and picture are displayed side by side-->
+                        <div class="w3-justify w3-padding-32 w3-hide-small w3-hide-medium">
+                            <h3>
+                                I am a <span style="color: #ADD8E6;">computer engineering </span>student at the <span style="color: #3169f1; "> University of Toronto</span>.
+                                I am passionate about programming and software development. I am currently
+                                searching for coop and internship opportunities summer 2022.
+                            </h3>
+                            <br>
+                            <div class="resumeBtn">
+                                <button class="button1" type="button" onclick="openResume()"><b>View My Resume</b></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="profilepic w3-hide-small  w3-hide-medium" style="width: 600px; ">
+                        <img src="Pictures/pfp.png" alt="Prarthona Paul" width="600">
+                    </td>
+                </tr>
+            </table>
+        </header>
+
+        <!-- Experience Section -->
+        <div class="w3-justify w3-padding-16 Container" id="Experience">
+            <h2 class="w3-text-light-grey">Experiences</h2>
+            <hr style="width:185px" class="w3-opacity">
+
+            <h5 style="color: lightgray;"> <b>Work Experiences: </b></h5>
+
+            <button class="collapsible">Manager: Hard Hat Cafe (May 2021 - Present)</button>
+            <div class="content">
+                <ul>
+                    <li> &#9658 Manage schedules, organize staff, and oversee daily operations of the cafe. </li>
+                    <li> &#9658 Recruite, mentor, and lead employees and executive members. </li>
+                    <li> &#9658 Collaborate with co-manager and VP Finance of the Engineering Society to lead execs, manage outreach and customer relations. </li>
+                    <li> &#9658 Cooperate with people with several backgrounds and skillsets. </li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Freelance Tutor for High School Students (March 2021 - Present)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Mentor students from different backgrounds and learning styles.</li>
+                    <li> &#9658 Communicate challenges faced by students and model a learning strategy to best help them.</li>
+                    <li> &#9658 Utilize quick and continuous learning to adapt to new materials and teach it to my students.</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Marketing and Sales Associate: Crazy D's Soda Labs (July 2019 - December 2021)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Maintained the company website and the social media accounts. </li>
+                    <li> &#9658 Worked independently to create content for the website and social medias.   </li>
+                    <li> &#9658 Researched and generated marketing and sales strategies. </li>
+                    <li> &#9658 Promoted and sold products and inform customers about the benefits of the product. </li>
+                    <li> &#9658 Implemented critical thinking and creativity in marketing and sales strategy to optimize customer reach. </li>
+                </ul>
+            </div>
+
+            <button class="collapsible"> Office Administrator: Sugarmoon Salon (November 2018 - April 2019)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Lead a team of clients and employees and oversaw daily employee and client schedule.</li>
+                    <li> &#9658 Communicated with other braches to coordinate daily operations and resolve issues.</li>
+                    <li> &#9658 Book future client appointments over email, phone and in person.</li>
+                    <li> &#9658 Audited vendor billing, corrected errors, and oversaw daily cash inflow and outflow.</li>
+                    <li> &#9658 Manage inventory of retail products.</li>
+                </ul>
+            </div>
+
+            <h5 style="color: lightgray; "> <b>Volunteer and Extra Curricular: </b></h5>
+
+            <button class="collapsible">Sponsorship Executive: UofTHacks 2022 (June 2021 - Present)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Acquire and budget funds for the hackathon. </li>
+                    <li> &#9658 Create sponsorship packages for the participents. </li>
+                    <li> &#9658 Collaborate with companies to negotiate deals. </li>
+                    <li> &#9658 Network and maintain communication with representitives from various companies.  </li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Leader: University of Toronto Engineering Orientation (Summer 2021)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Guide large group of incoming students throughout several high energy activities.</li>
+                    <li> &#9658 Work flexibly with other leaders and volunteers to resolve any issues.</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Communication Director: Multicultural Club (September 2016 - June 2021)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Maintained communication within a large team of supervisors, general and executive members, volunteers and performer.</li>
+                    <li> &#9658 Scheduled auditions, meetings, and rehearsals and sent emails and reminders. </li>
+                    <li> &#9658 Held interviews to recruit members for the club and judged auditions for the show.</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Volunteer and Student Mentor: SATEC @ W. A. PORTER C. I. (June 2018 - June 2020)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Mentored incoming students at the school, to ensure a smooth transition. </li>
+                    <li> &#9658 Led a large team of volunteers at several school events to ensure they run smoothly.</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Performer and Dance mentor: SHUKANYA NRITTANGAN (April 2011 - Present)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Manage and lead young students in learning dance routines. </li>
+                    <li> &#9658 Assist the instructor in teaching junior students at the school.</li>
+                    <li> &#9658 Coordinate and arrange performance and costume details for students before recitals.</li>
+                    <li> &#9658 Perform in community events to represent my culture and the damce academy.</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Volunteer and Youth Leader: Access Point at Danforth (March 2016)</button>
+            <div class="content">
+                <ul class="experiences">
+                    <li> &#9658 Led a group of young adults in a March break program intended for Syrian newcomers.</li>
+                    <li> &#9658 Participated in low energy ice breaker activities with the participants.</li>
+                </ul>
+            </div>
+
+            <h5 style="color: lightgray;"> <b>Education:</b></h5>
+            <button class="collapsible">Computer Engineering: University of Toronto (September 2020 - Present)</button>
+            <ul class="content">
+                <li> &#9658 Edward S Rogers Sr. Admission Scholarship 2020</li>
+                <li> &#9658 Hira And Kamal Ahjua Award in Engineering 2020</li>
+            </ul>
+
+            <button class="collapsible">OSSD: Satec @ W. A. Porter C. I. (September 2016 - June 2020)</button>
+            <ul class="content">
+                <li> &#9658 Academic excellence award in 2018 and 2020</li>
+                <li> &#9658 Ontario scholar 2020</li>
+                <li> &#9658 Received honor roll from 2017 – 2020</li>
+                <li> &#9658 Completed Specialized Higher Skills Major (SHSM) in Information and Communication Technology (ICT)</li>
+            </ul>
+            <script src="PrarthonaPaulJavaScript.js"></script>
+        </div>
+
+        <div class="Container w3-padding-64" id="Softwares">
+            <h2 class="w3-text-light-grey">Softwares and Tools</h2>
+            <hr style="width:300px" class="w3-opacity">
+            <table class="softwares" style=" width: 100%; ">
+                <tr>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/C.png" alt="C logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/C_Sharp.png" alt="C# logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/VB.png" alt="vb logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/HTML5.png" alt="html logo" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="toolName">
+                        <h4>C</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>C#</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>Visual Basic</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>HTML 5</h4>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/CSS3.png" alt="Css logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/javascript.png" alt="JS logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/VIsualStudio.png" alt="C logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/GitHub.png" alt="GitHub logo" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="toolName">
+                        <h4>CSS 3</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>JavaScript</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>MS Visual Studio</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>GitHub</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/unity.png" alt="unity logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/CodeLite.png" alt="Codelite logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/MS_office.png" alt="MS office logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/Matlab.png" alt="Matlab logo" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="toolName">
+                        <h4>Unity</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>CodeLite</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>MS office</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>MATLAB</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/Google_Drive.png" alt="Google Drive logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/Gantt_Project.png" alt="Gantt Project logo" />
+                    </td>
+                    <td class="toolLogo">
+                        <img class="logo" src="Pictures/SketchBook.png" alt="Autodesk Sketchbook logo" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="toolName">
+                        <h4>Google Suite</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>Gantt Project</h4>
+                    </td>
+                    <td class="toolName">
+                        <h4>Autodesk Sketchbook</h4>
+                    </td>
+                </tr>
+            </table>
+            <div class="resumeBtn">
+                <button class="w3-button button1" type="button" onclick="openGitHub()">
+                    <i class="fa fa-paper-github"></i> View My GitHub
+                </button>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="w3-padding-32 Container" id="projects">
+            <h2 class="w3-text-light-grey">Projects</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <div class="projects">
+                <p class="w3-black projectHead">Boomerang: A lost and found system for Toronto</p>
+                <br />
+                <p class="w3-black projectBio" style="width: 100%">
+                    Boomerang is a web app that works is a lost and found system for lost items and pets in the City of Toronto.
+                    Users can upload ads of lost valuables and/or pets and other users who see the ad will help them find it. The
+                    website has an embedded google maps which the user can use to pinpoint the last known location of the lost item/pet.
+                    <br />
+                    The project was built for the Design Solution Challenge by Google which targeted to solve United Nations Sustainable Design Goals (SDG's).
+                    In this project, I designed and built the front end of the website using HTML, CSS and Javascript. The project also uses a noSQL database on firebase hosted on Google Cloud.
+                    <br />
+                    See the project <a class="link" href="https://github.com/HarshitSohaney/Boomerang-GDSC2021" target="_blank">here</a>.
+                </p>
+                <br /><br />
+
+                <div class="slideShow">
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_Register.jpg" class="slidePics" />
+                    </div>
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_home1.jpg" class="slidePics" />
+                    </div>
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_home2.jpg" class="slidePics" />
+                    </div>
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_LostPet.jpg" class="slidePics" />
+                    </div>
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_ad.jpg" class="slidePics" />
+                    </div>
+                    <div class="boomerangSlides w3-display-container w3-center">
+                        <img src="Pictures/Boomerang_Maps.jpg" class="slidePics" />
+                    </div>
+                </div>
+                <script src="Carousel1.js"></script>
+            </div>
+            <div class="projects">
+                <p class="w3-black projectHead">DUAL PC</p>
+                <br />
+                <p class="w3-black projectBio" style="width: 100%">
+                    This is a 2 player game played on PC. The objective of the game is to kill the opponent using the bullets. Each player can choose a ship
+                    with varied level of power and speed. The game was built as a group project on Unity using C#.
+                    <br />
+                    This project was developed in a group and I designed and coded the tutorial, the first splash page and movements and boundaries of the ships in the game.
+                    <br />
+                    See demo videos of the project <a class="link" href="https://github.com/PrarthonaPaul/Dual_PC" target="_blank">here</a> and <a class="link" href="https://drive.google.com/drive/folders/15DqDLIf-ZffYmAcvUvLLIPExenGpFT16?usp=sharing" target="_blank">here</a>.
+                </p>
+                <br /><br />
+
+                <div class="slideShow">
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_Splash.jpg" class="slidePics" />
+                    </div>
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_Tut.jpg" class="slidePics" />
+                    </div>
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_Tut2.jpg" class="slidePics" />
+                    </div>
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_ShipSelector.jpg" class="slidePics" />
+                    </div>
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_GamePlay.jpg" class="slidePics" />
+                    </div>
+                    <div class="dualSlides w3-display-container w3-center">
+                        <img src="Pictures/Dual_Results.jpg" class="slidePics" />
+                    </div>
+                </div>
+                <script src="Carousel2.js"></script>
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-text-grey Container" id="contact" style="flex-direction: column; ">
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section w3-text-grey">
+                <p><i class="fa fa-map-marker fa-fw w3-text-light-grey w3-xxlarge w3-margin-right"></i> Toronto, CA</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-light-grey w3-xxlarge w3-margin-right"></i> <a href="mailto:email@example.com"> p.paul@mail.utoronto.ca </a></p>
+                <p><i class="fa fa-github fa-fw w3-text-light-grey w3-xxlarge w3-margin-right"></i> <a href="https://github.com/PrarthonaPaul" target="_blank">@PrarthonaPaul</a></p>
+                <p><i class="fa fa-linkedin fa-fw w3-text-light-grey w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/prarthona-paul-bb600a187/" target="_blank">@Prarthona Paul</a></p>
+            </div>
+            <h6>Let's get in touch! Send me a message:</h6>
+
+            <form class="formItem" action="https://formspree.io/f/xzbygabn" method="post" target="_blank" id="my-form">
+                <p><input class="w3-input w3-padding-16 " id="fullName" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16 " id="email" type="email" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16 " id="subject" type="text" spellcheck="true" placeholder="Subject" required name="Subject"></p>
+                <div class="w3-text-grey w3-large">Message: </div>
+                <p><textarea class="w3-input w3-padding-16" id="message" type="text" spellcheck="true" placeholder="Message" required name="Message" cols="30" rows="10"> </textarea></p>
+                <br>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <br/>
+            <!--<div class="w3-text-light-grey w3-xlarge" id="status">Success!</div>-->
+            <!--<script src="PrarthonaPaulJavaScript.js" ></script>-->
+        </div>
+    </div>
+    
+</body>
+</html>
+
